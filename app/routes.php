@@ -21,3 +21,8 @@ Route::get('about', function()
 	return View::make('about');
 });
 
+Route::get('equipos', function()
+{
+	return View::make('equipos');
+});
+
